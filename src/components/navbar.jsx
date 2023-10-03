@@ -1,7 +1,7 @@
 import CategoriasNavBar from "./categoriasNavbar";
 import Marca from "./marca";
 import NavButton from "./navbarbutton";
-import Iconocarrito from "./cart4";
+import Iconocarrito from "./iconocarrito";
 
 const NavBar = () => {
 
@@ -12,7 +12,7 @@ const NavBar = () => {
    <NavButton/>
    <CategoriasNavBar/>
   </div>
-  <a href="#">{Iconocarrito}</a>
+  <Iconocarrito/>
 </nav>
     )
 }
