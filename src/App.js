@@ -4,11 +4,11 @@ import VistaArticulos from './components/vistaArticulos';
 
 function App() {
   return (
+    
     <div className="App container">
 <Layout>
 <VistaArticulos/>
 </Layout>
-
 </div>
   );
 }
