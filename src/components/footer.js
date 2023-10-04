@@ -5,15 +5,13 @@ from "./categorias"
 const Footer =() =>{
     return(
         <footer >
-        <ul >   
+        <ul className="list-group list-group-horizontal" >   
         {categorias.map ((nombre,index) => (
-<li>
-   <a href="#">{nombre}</a>
+<li className ="list-group-item flex-fill">
+   <a href={nombre}>{nombre}</a>
 </li>
 ))}
         </ul>
-            
-            
         </footer>
     )
 }

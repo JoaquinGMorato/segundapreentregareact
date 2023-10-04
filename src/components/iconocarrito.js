@@ -6,7 +6,7 @@ const carrito = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" f
 
 const Iconocarrito = ()=>{
   return (
-    <a href="#">{carrito}</a>
+    <a href="/carrito">{carrito}</a>
   )
 }
 export default Iconocarrito;

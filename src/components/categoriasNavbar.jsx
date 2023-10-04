@@ -8,7 +8,7 @@ const CategoriasNavBar = ()=>{
  <ul className="navbar-nav">
     {categorias.map ((nombre,index) => (
    <li className="nav-item">
-     <a className="nav-link active" aria-current="page" href="#">{nombre}</a>
+     <a className="nav-link active" aria-current="page" href={nombre}>{nombre}</a>
    </li>))}
  </ul>
 </div>

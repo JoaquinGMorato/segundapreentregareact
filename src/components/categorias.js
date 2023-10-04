@@ -1,4 +1,9 @@
 
-const categorias = ["Home", "Hombres", "Mujeres","Niños"];
+const categorias = [
+"Home",
+"Hombre",
+"Mujer",
+"Niños",
+];
 
 export default categorias;

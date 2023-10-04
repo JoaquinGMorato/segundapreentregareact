@@ -2,7 +2,7 @@
 
 const Marca = () => {
     return(
-        <a className="navbar-brand" href="#">NIKEE</a>
+        <a className="navbar-brand" href="/Home">NIKEE</a>
     )
 }
 

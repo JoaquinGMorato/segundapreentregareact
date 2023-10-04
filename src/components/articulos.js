@@ -59,6 +59,7 @@ const articulos = [
       precio: 31.99,
       stock: 11,
     },
+    
   ];
 
   export default articulos;
